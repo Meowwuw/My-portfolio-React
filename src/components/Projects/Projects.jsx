@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Projects.css'; // Asegúrate de que la ruta al archivo CSS es correcta
+import './projects.css'; // Asegúrate de que la ruta al archivo CSS es correcta
 
 const Projects = () => {
   // Información de los proyectos (podrías también obtener esto de un estado o prop)
