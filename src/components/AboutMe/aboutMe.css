@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inspiration&display=swap');
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: calc(100% - var(--sidebar-width));
+    font-family: 'Inika', serif;
+    font-size: 20px;
+  }
+  
+  .about-me-photo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-description {
+    text-align: center;
+    padding: 0 20px; 
+  }
+  
+  .technical-skills {
+    text-align: center;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-icons img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .sidebar-highlight-about {
+    background-color: #FFCEE2;
+  }
+  

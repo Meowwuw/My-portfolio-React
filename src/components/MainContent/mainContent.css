@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inspiration&display=swap');
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: calc(100% - var(--sidebar-width));
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    white-space: nowrap; /* Asegura que el contenido esté en una sola línea */
+    overflow: hidden; /* Oculta cualquier desbordamiento de contenido */
+    text-overflow: ellipsis; /* Añade puntos suspensivos si el contenido se desborda */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    min-width: 300px; /* Ajusta este valor según sea necesario */
+    font-size: 30px;
+  }
+  
+
+
+  .boton-cv {
+    
+    margin-top: 20px;
+    padding: 10px 12px; /* Ajusta el padding si es necesario para cambiar la altura y el espacio interior */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+a {
+    text-decoration: none; 
+  }
+  
+  .nombre {
+      font-family: 'Inspiration', cursive;
+      color: #ff00ff;
+      font-size: 130px;
+  }
+  
+  .nombre a:link, .nombre a:visited {
+    font-family: 'Inspiration', cursive;
+    color: #ff00ff;
+    font-size: 100px;
+    text-decoration: none;
+  }
+  
+  

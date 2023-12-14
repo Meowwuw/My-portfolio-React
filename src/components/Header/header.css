@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.header {
+  cursor: pointer;
+  position: absolute;
+  top: 20px; /* Ajusta la posición vertical según sea necesario */
+  left: 50px; /* Ajusta la posición horizontal según sea necesario */
+  z-index: 10; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.header-name {
+  font-size: 2em; 
+  font-family: 'Satisfy', cursive;
+  color: #ff00ff; 
+}

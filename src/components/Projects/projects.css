@@ -1,0 +1,131 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Esto creará 3 columnas */
+  margin-top: 90px;
+  gap: 10px; /* Espacio entre tarjetas */
+  justify-content: center; /* Esto centrará las tarjetas en el contenedor si hay espacio adicional */
+  margin-right: 300px;
+}
+
+
+.project-item {
+  background: #f9f9f9; /* Color de fondo de cada proyecto */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Asegura que todo el contenido se quede dentro de los bordes redondeados */
+  display: flex; /* Añade flexibilidad para organizar la imagen y el contenido */
+  flex-direction: column; /* Organiza los hijos en columna */
+  cursor: pointer; /* Cambia el cursor al pasar sobre la tarjeta */
+}
+
+.card-container {
+  perspective: 1000px;
+  width: 300px; /* Ancho fijo de la tarjeta */
+  height: 350px; /* Alto fijo de la tarjeta */
+  margin: 0 auto; /* Centra la tarjeta horizontalmente si es necesario */
+}
+
+.card-flip {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card-flip.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-front {
+  background-color: white;
+}
+
+.card-back {
+  background-color: #f8f8f8;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 50%; /* Ajusta al 50% del alto de la tarjeta */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title{
+  font-size: 18px;
+}
+
+.card-title,
+.card-text,
+.card-date {
+  text-align: center;
+  
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-actions {
+  display: flex; /* Esto permite colocar los elementos hijos uno al lado del otro */
+  justify-content: space-around; /* Esto espaciará los elementos uniformemente */
+  width: 100%; /* Esto asegura que el contenedor de acciones use todo el ancho disponible */
+}
+
+
+
+.view-project-btn,
+.github-icon {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px; /* Esto agrega un pequeño margen a los lados de cada botón para separarlos */
+  display: inline-flex; /* Esto permite que los enlaces se comporten como botones flexibles */
+  align-items: center; /* Esto centra el contenido de los botones verticalmente */
+}
+
+.view-project-btn {
+  background-color: #6200ea; 
+  color: white;
+}
+
+
+.github-icon img {
+  width: 24px; 
+  height: auto; 
+  margin-right: 5px; 
+}
+
+.figma-icon img{
+  width: 24px;
+  height: auto; 
+  margin-right: 5px;
+}

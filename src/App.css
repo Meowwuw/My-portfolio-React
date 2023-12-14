@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inspiration&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inika', serif;
+}
+
+:root {
+  --sidebar-width: 350px; /* O el ancho de tu sidebar */
+}
+
+@media (max-width: 1200px) {
+  /* Estilos para pantallas grandes (p.ej., laptops) */
+}
+
+@media (max-width: 992px) {
+  /* Estilos para pantallas medianas (p.ej., tablets en modo horizontal) */
+}
+
+@media (max-width: 768px) {
+  /* Estilos para tablets en modo vertical */
+}
+
+@media (max-width: 576px) {
+  /* Estilos para teléfonos grandes (phablets) */
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%; /* Sidebar de ancho completo */
+    position: relative; /* O posición absoluta con un z-index más alto */
+  }
+}
+

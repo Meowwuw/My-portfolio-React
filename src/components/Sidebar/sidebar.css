@@ -1,0 +1,43 @@
+
+.sidebar {
+    position: fixed; /* Posiciona tu sidebar de manera fija */
+    top: 0; /* Inicio de la parte superior de la ventana de visualización */
+    right: 0; /* Inicio del lado derecho de la ventana de visualización */
+    width: 280px; /* Ancho fijo del sidebar, ajusta según tus necesidades */
+    height: 100%; /* Ajusta el alto para que se ajuste al viewport */
+    padding-bottom: 20px; /* Añade relleno en la parte inferior del contenedor del sidebar */
+   font-size: 25px;
+  }
+
+.sidebar .icono {
+  margin: 50px 0px 150px 10px;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .icono img {
+  width: 110px; /* Tamaño fijo para los íconos */
+  height: auto;
+}
+
+
+.sidebar .icono p {
+    margin-top: 5px;
+    margin-left: 10px; /* Espaciado entre el ícono y el texto */
+   
+}
+
+.sidebar-background-about {
+  background-color: #FFCEE2;
+}
+
+.sidebar-highlight-projects {
+  background-color: #D2E6FF; /* Color para 'Projects' */
+}
+
+.sidebar-highlight-contact {
+  background-color: #FFCF6C; /* Color para 'Contact' */
+}
+

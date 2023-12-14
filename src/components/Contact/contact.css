@@ -1,0 +1,37 @@
+.contact-icons {
+    display: flex;
+    justify-content: center; /* Centra los ítems horizontalmente */
+    align-items: center; /* Centra los ítems verticalmente */
+    gap: 30px; /* Espacio entre los botones */
+    padding: 40px; /* Espacio alrededor de los íconos */
+    margin-right: 250px;
+  }
+  
+  .social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Tamaño más grande del botón */
+    height: 80px;
+    border-radius: 40px; /* Hacer el botón redondo y del tamaño de la mitad del ancho/alto */
+    transition: transform 0.3s; /* Transición suave para el efecto hover */
+    text-decoration: none;
+  }
+  
+  .social-btn:hover {
+    transform: scale(1.1); /* Hace que el botón crezca un 10% al pasar el ratón por encima */
+  }
+  
+  .social-btn img {
+    width: 100%; /* Ajusta el tamaño de la imagen al 50% del botón */
+    height: auto;
+  }
+  
+  /* Si deseas que los íconos se centren también verticalmente en la ventana de visualización, puedes agregar esto */
+  .contact-container {
+    height: 100vh; /* Altura total de la ventana de visualización */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
