@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './projects.css'; // Asegúrate de que la ruta al archivo CSS es correcta
+import './projects.css'; 
 
 const Projects = () => {
-  // Información de los proyectos (podrías también obtener esto de un estado o prop)
   const projectsInfo = [
     {
       title: "Data Lovers | Pokemon Web Site",
